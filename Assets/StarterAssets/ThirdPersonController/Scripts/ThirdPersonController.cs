@@ -122,7 +122,7 @@ namespace StarterAssets
             }
         }
 
-
+       
         private void Awake()
         {
             // get a reference to our main camera
@@ -159,8 +159,18 @@ namespace StarterAssets
             JumpAndGravity();
             GroundedCheck();
             Move();
-        }
 
+        }
+        private void OnCollisionEnter(Collision collision)
+        {
+
+            if (collision.gameObject.name.Equals("Box") )
+            {
+                Debug.Log("Success");
+            }
+
+
+        }
         private void LateUpdate()
         {
             CameraRotation();
