@@ -328,6 +328,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerArmature Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 3641169155368723075, guid: 7da8c1a4c410e894ca02b9a2e5833bc0, type: 3}
+      propertyPath: sprint
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
