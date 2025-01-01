@@ -97,6 +97,7 @@ namespace StarterAssets
         private int _animIDJump;
         private int _animIDFreeFall;
         private int _animIDMotionSpeed;
+        private int _animIDPushButton;
 
 #if ENABLE_INPUT_SYSTEM 
         private PlayerInput _playerInput;
@@ -158,6 +159,7 @@ namespace StarterAssets
 
             JumpAndGravity();
             GroundedCheck();
+            PushButton();
             Move();
         }
 
@@ -173,6 +175,7 @@ namespace StarterAssets
             _animIDJump = Animator.StringToHash("Jump");
             _animIDFreeFall = Animator.StringToHash("FreeFall");
             _animIDMotionSpeed = Animator.StringToHash("MotionSpeed");
+            _animIDPushButton = Animator.StringToHash("ButtonV2");
         }
 
         private void GroundedCheck()
@@ -345,6 +348,18 @@ namespace StarterAssets
             if (_verticalVelocity < _terminalVelocity)
             {
                 _verticalVelocity += Gravity * Time.deltaTime;
+            }
+        }
+
+        private void PushButton()
+        {
+            if (Input.GetKeyDown("b"))
+            {
+                _animator.SetBool(_animIDPushButton,true);
+            }
+            if (Input.GetKeyUp("b"))
+            {
+                _animator.SetBool(_animIDPushButton, false);
             }
         }
 
