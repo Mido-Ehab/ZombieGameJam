@@ -1,8 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 70fd40674751a8042a8b9b2e8d9f915f
 folderAsset: yes
 timeCreated: 1522559128
 licenseType: Store
+=======
+guid: 6d27d8844f5878e44adf53b5f791b544
+folderAsset: yes
+>>>>>>> push_Button
 DefaultImporter:
   externalObjects: {}
   userData: 
