@@ -363,11 +363,11 @@ namespace StarterAssets
 
         private void PushButton()
         {
-            if (Input.GetKeyDown("b"))
+            if (Input.GetKeyDown("f"))
             {
                 _animator.SetBool(_animIDPushButton,true);
             }
-            if (Input.GetKeyUp("b"))
+            if (Input.GetKeyUp("f"))
             {
                 _animator.SetBool(_animIDPushButton, false);
             }

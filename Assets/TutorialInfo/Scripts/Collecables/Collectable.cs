@@ -25,13 +25,14 @@ public class Collectable : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             PickupText.SetActive(true);
-            if (Input.GetKey(KeyCode.G))
+            if (Input.GetKey(KeyCode.F))
             {
                 collectSource.Play();
                 this.gameObject.SetActive(false);
                 PlayerPrefs.Save();
                 Pickup();
                 PickupText.SetActive(false);
+
             }
         }
     }

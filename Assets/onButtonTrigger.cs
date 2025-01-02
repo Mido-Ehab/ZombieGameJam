@@ -33,7 +33,7 @@ public class onButtonTrigger : MonoBehaviour
 
     void Update()
     {
-        if (isPlayerInTriggerArea && Input.GetKeyDown(KeyCode.E))
+        if (isPlayerInTriggerArea && Input.GetKeyDown(KeyCode.F))
         {
             Debug.Log("HELLO FROM TRIGGER BOX");
             isTriggered = !isTriggered;
