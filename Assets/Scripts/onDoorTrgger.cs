@@ -19,8 +19,10 @@ public class onDoorTrigger : MonoBehaviour
     private void Update()
     {
         // Check if the player is in the trigger zone and presses the F key
+       
         if (isPlayerInTrigger && Input.GetKeyDown(KeyCode.F))
         {
+
             Debug.Log("F key pressed");
             // Toggle the door state
             isOpen = !isOpen;
