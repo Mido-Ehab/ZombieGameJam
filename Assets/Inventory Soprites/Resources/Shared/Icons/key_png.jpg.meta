@@ -1,12 +1,5 @@
 fileFormatVersion: 2
-guid: baf7da08733596a40ab1f9c27902f89d
-AssetOrigin:
-  serializedVersion: 1
-  productId: 283656
-  packageName: Inventory Framework Lite
-  packageVersion: 1.2
-  assetPath: Assets/InventorySystem/GDS/Core/Resources/Shared/Icons/slot.png
-  uploadId: 712931
+guid: 8b12c49355a8d3947a9ec20b5fa2dd06
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -88,33 +81,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1

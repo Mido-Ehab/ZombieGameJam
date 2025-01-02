@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2202532756609819774}
   - component: {fileID: 2814510482758671216}
   - component: {fileID: 1128431087020541368}
+  - component: {fileID: 5474161079361525298}
   m_Layer: 0
   m_Name: FlashLight
   m_TagString: Player
@@ -106,7 +107,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PickupText: {fileID: 4120006549087269644}
-  itemType: 
   collectSource: {fileID: 0}
   Item: {fileID: 11400000, guid: d0050c30e4c3a5146a6ce6431e0f4e5d, type: 2}
 --- !u!65 &2814510482758671216
@@ -143,8 +143,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PickupText: {fileID: 4120006549087269644}
-  itemType: 
   collectSource: {fileID: 0}
+  Item: {fileID: 11400000, guid: d0050c30e4c3a5146a6ce6431e0f4e5d, type: 2}
+--- !u!114 &5474161079361525298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4120006549087269644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38c689c08bb77b548ac5f2786ce659b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   Item: {fileID: 11400000, guid: d0050c30e4c3a5146a6ce6431e0f4e5d, type: 2}
 --- !u!1 &4790043002249546852
 GameObject:

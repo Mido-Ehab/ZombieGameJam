@@ -2,6 +2,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using Unity.VisualScripting;
+
 public class InventoryManager : MonoBehaviour
 {
     public static InventoryManager Instance;
@@ -23,6 +25,13 @@ public class InventoryManager : MonoBehaviour
     }
     public void ListItems()
     {
+        // Clear existing items in the UI
+        foreach (Transform child in ItemContent)
+        {
+            Destroy(child.gameObject);
+        }
+
+        // Populate the inventory with current items
         foreach (var item in Items)
         {
             GameObject obj = Instantiate(InventoryItem, ItemContent);
@@ -32,7 +41,7 @@ public class InventoryManager : MonoBehaviour
 
             if (itemName != null && itemIcon != null)
             {
-                itemName.text =item.itemName ;
+                itemName.text = item.itemName;
                 itemIcon.sprite = item.icon;
             }
             else
@@ -41,4 +50,5 @@ public class InventoryManager : MonoBehaviour
             }
         }
     }
+
 }

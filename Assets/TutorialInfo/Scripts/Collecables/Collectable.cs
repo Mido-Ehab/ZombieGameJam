@@ -8,8 +8,8 @@ public class Collectable : MonoBehaviour
 
     void Start()
     {
-        Cursor.visible = true; 
-        Cursor.lockState = CursorLockMode.None; 
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
 
         PickupText.SetActive(false);
 
@@ -19,6 +19,7 @@ public class Collectable : MonoBehaviour
     {
         InventoryManager.Instance.Add(Item);
         Destroy(gameObject);
+        InventoryManager.Instance.ListItems();
     }
     private void OnTriggerStay(Collider other)
     {
@@ -32,11 +33,10 @@ public class Collectable : MonoBehaviour
                 PlayerPrefs.Save();
                 Pickup();
                 PickupText.SetActive(false);
-
             }
         }
     }
-    
+
     private void OnTriggerExit(Collider other)
     {
         PickupText.SetActive(false);

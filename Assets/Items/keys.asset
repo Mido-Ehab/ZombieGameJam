@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ee8e2c93e6126b4fb8777ef10e18d06, type: 3}
-  m_Name: Vaccine
+  m_Script: {fileID: 11500000, guid: 3c5bdf2c6b9494147988da100b9e7d15, type: 3}
+  m_Name: keys
   m_EditorClassIdentifier: 
   id: 1
-  ItemName: Vaccine
+  itemName: key
   value: 1
-  ItemIcon: {fileID: 21300000, guid: 6592b916f86b19e428db6f6847c7b6dd, type: 3}
+  icon: {fileID: 21300000, guid: 8b12c49355a8d3947a9ec20b5fa2dd06, type: 3}
