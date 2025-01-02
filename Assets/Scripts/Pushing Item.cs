@@ -3,16 +3,7 @@ using UnityEngine;
 public class PushingItem: MonoBehaviour
 {
     [SerializeField] private float ForceMagnitude;
-    void start() 
-    {
-
-    }
-
-    void update()
-    {
-
-    }
-
+    
     private void OnControllerColliderHit(ControllerColliderHit hit) 
     {
         Rigidbody rigidBody = hit.collider.attachedRigidbody;
