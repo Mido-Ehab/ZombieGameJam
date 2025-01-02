@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5428748118555976197, guid: c8ea3edf7ac3a624398a06753494a46d, type: 3}
       propertyPath: m_Name
-      value: Hall Variant
+      value: Hall_Oval
       objectReference: {fileID: 0}
     - target: {fileID: 8378169877236451600, guid: c8ea3edf7ac3a624398a06753494a46d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -230,7 +230,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 143478620712609685, guid: e40908a707f6a24439a5a5f6d69b6808, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.7426054
+      value: 1.7009048
       objectReference: {fileID: 0}
     - target: {fileID: 143478620712609685, guid: e40908a707f6a24439a5a5f6d69b6808, type: 3}
       propertyPath: m_LocalScale.y
@@ -242,11 +242,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 143478620712609685, guid: e40908a707f6a24439a5a5f6d69b6808, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.0037409067
+      value: -0.01145
       objectReference: {fileID: 0}
     - target: {fileID: 143478620712609685, guid: e40908a707f6a24439a5a5f6d69b6808, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0000002644956
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 143478620712609685, guid: e40908a707f6a24439a5a5f6d69b6808, type: 3}
       propertyPath: m_LocalPosition.z
