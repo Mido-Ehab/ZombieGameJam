@@ -6,8 +6,6 @@ TagManager:
   tags:
   - CinemachineTarget
   - Enemy
-  - Button
-  - Pullable
   layers:
   - Default
   - TransparentFX
