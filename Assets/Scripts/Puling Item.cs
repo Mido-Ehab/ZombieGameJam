@@ -19,7 +19,7 @@ public class PullingItem : MonoBehaviour
             float distance = Vector3.Distance(new Vector3(transform.position.x, transform.position.y + 1, transform.position.z), hitInfo.point);
             
 
-            if (hitInfo.collider.CompareTag("Pullable") && Input.GetKey(KeyCode.F) && distance < range)
+            if (hitInfo.collider.CompareTag("Pullable") && Input.GetKey(KeyCode.M) && distance < range)
             {
                 isDragging = true;
             }
