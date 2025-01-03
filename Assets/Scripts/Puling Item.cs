@@ -14,9 +14,9 @@ public class PullingItem : MonoBehaviour
 
     private void Update() 
     {
-        if (Physics.Raycast(new Vector3(transform.position.x, transform.position.y , transform.position.z), transform.TransformDirection(Vector3.forward), out hitInfo, 1000f)) 
+        if (Physics.Raycast(new Vector3(transform.position.x, transform.position.y + 0.001f, transform.position.z), transform.TransformDirection(Vector3.forward), out hitInfo, 1000f)) 
         {
-            float distance = Vector3.Distance(new Vector3(transform.position.x, transform.position.y , transform.position.z), hitInfo.point);
+            float distance = Vector3.Distance(new Vector3(transform.position.x, transform.position.y + 0.001f, transform.position.z), hitInfo.point);
             
 
             if (hitInfo.collider.CompareTag("Pullable") && Input.GetKey(KeyCode.M) && distance < range)
