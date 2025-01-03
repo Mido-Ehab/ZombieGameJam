@@ -1058,7 +1058,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3944284295191224049, guid: 7f0010b80c268404fb8cfe71c96b5a92, type: 3}
       propertyPath: near clip plane
-      value: 0.01
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 3944284295191224049, guid: 7f0010b80c268404fb8cfe71c96b5a92, type: 3}
       propertyPath: orthographic size
@@ -3323,6 +3323,10 @@ PrefabInstance:
       propertyPath: m_Follow
       value: 
       objectReference: {fileID: 1438101363}
+    - target: {fileID: 3931567385516497573, guid: eab6249c6a59baa4f8679b1922b617aa, type: 3}
+      propertyPath: m_Lens.NearClipPlane
+      value: -10
+      objectReference: {fileID: 0}
     - target: {fileID: 3931567385516497755, guid: eab6249c6a59baa4f8679b1922b617aa, type: 3}
       propertyPath: m_Name
       value: PlayerFollowCamera Variant
