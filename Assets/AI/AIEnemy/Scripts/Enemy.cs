@@ -29,7 +29,11 @@ public class Enemy : MonoBehaviour
 
     private void Update()
     {
-        animator.SetFloat("speed", agent.velocity.magnitude / agent.speed);
+        if (player == null)
+        {
+            return;
+        }
+            animator.SetFloat("speed", agent.velocity.magnitude / agent.speed);
 
         // Combat behavior
         if (timePassed >= attackCD)
@@ -43,14 +47,15 @@ public class Enemy : MonoBehaviour
         timePassed += Time.deltaTime;
 
        
-        if (Vector3.Distance(player.transform.position, transform.position) <= aggroRange)
-        {
-            ChasePlayer();
-        }
-        else
-        {
-            Patrol();
-        }
+            if (Vector3.Distance(player.transform.position, transform.position) <= aggroRange)
+            {
+                ChasePlayer();
+            }
+            else
+            {
+                Patrol();
+            }
+        
     }
 
     private void Patrol()
