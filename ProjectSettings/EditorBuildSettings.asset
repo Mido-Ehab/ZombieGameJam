@@ -9,11 +9,11 @@ EditorBuildSettings:
     path: Assets/Scenes/UIscenes/MainMenu.unity
     guid: d7b597fc886290242b7465535e4019c0
   - enabled: 1
-    path: Assets/Scenes/VACSICURE.unity
-    guid: 52d058f3961a5a045a430947b2157319
-  - enabled: 1
     path: Assets/Scenes/UIscenes/GameOver_Test.unity
     guid: 131cfc149e2a7c141b323933547d4dbc
+  - enabled: 1
+    path: Assets/Scenes/VACSICURE.unity
+    guid: 52d058f3961a5a045a430947b2157319
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

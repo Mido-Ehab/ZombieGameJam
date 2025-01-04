@@ -32,7 +32,7 @@ public class PlayerDamage : MonoBehaviour
             {
                 Debug.Log("Player has died!");
                 Destroy(gameObject);
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(1);
         }
        
     }
