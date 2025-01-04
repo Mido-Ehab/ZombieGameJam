@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PlayerHealthReducer : MonoBehaviour
+public class PlayerDamage : MonoBehaviour
 {
     private int Health = 3;
 
