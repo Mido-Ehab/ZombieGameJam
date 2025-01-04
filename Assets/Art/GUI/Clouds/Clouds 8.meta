@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 097873f1f122d2b4381aefae1ac2036f
+=======
+guid: 53ea6c30eb444ce4fbaf55695857f742
+>>>>>>> UI_Functionalities_floors
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

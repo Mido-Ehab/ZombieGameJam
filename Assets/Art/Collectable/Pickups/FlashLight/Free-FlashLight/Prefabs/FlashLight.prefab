@@ -106,7 +106,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PickupText: {fileID: 0}
-  itemType: 
   collectSource: {fileID: 0}
   Item: {fileID: 11400000, guid: d0050c30e4c3a5146a6ce6431e0f4e5d, type: 2}
 --- !u!65 &2814510482758671216
@@ -143,7 +142,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PickupText: {fileID: 4120006549087269644}
-  itemType: 
   collectSource: {fileID: 0}
   Item: {fileID: 0}
 --- !u!1 &4790043002249546852
@@ -190,7 +188,7 @@ Light:
   serializedVersion: 11
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 2.63
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208

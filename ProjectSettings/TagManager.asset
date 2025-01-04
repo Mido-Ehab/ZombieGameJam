@@ -6,14 +6,16 @@ TagManager:
   tags:
   - CinemachineTarget
   - Enemy
+  - Pullable
+  - Button
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - puzzle
   - Water
   - UI
-  - 
+  - player
   - 
   - 
   - 

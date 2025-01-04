@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 7c70d1af39b9038428bba56bbacb3c3f
+=======
+guid: e505a498826e29644bddada5c7e98f2b
+>>>>>>> UI_Functionalities_floors
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

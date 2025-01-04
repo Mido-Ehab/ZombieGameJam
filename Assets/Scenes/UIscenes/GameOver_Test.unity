@@ -155,10 +155,17 @@ RectTransform:
   - {fileID: 1151474172}
   m_Father: {fileID: 1829673836}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD:Assets/Scenes/UIscenes/GameOver_Test.unity
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 916, y: 450}
+=======
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 423.5, y: 0}
+  m_SizeDelta: {x: 847, y: 516}
+>>>>>>> UI_Functionalities_floors:Assets/Scenes/GameOver_Test.unity
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &55967123
 MonoBehaviour:
@@ -245,7 +252,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2805300594217253907, guid: a843fc29af79d6941b9d0fa822449980, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<< HEAD:Assets/Scenes/UIscenes/GameOver_Test.unity
       value: -5.0084996
+=======
+      value: -4.970388
+>>>>>>> UI_Functionalities_floors:Assets/Scenes/GameOver_Test.unity
       objectReference: {fileID: 0}
     - target: {fileID: 2805300594217253907, guid: a843fc29af79d6941b9d0fa822449980, type: 3}
       propertyPath: m_LocalPosition.y
@@ -253,7 +264,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2805300594217253907, guid: a843fc29af79d6941b9d0fa822449980, type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD:Assets/Scenes/UIscenes/GameOver_Test.unity
       value: 1.4285002
+=======
+      value: 1.3903883
+>>>>>>> UI_Functionalities_floors:Assets/Scenes/GameOver_Test.unity
       objectReference: {fileID: 0}
     - target: {fileID: 2805300594217253907, guid: a843fc29af79d6941b9d0fa822449980, type: 3}
       propertyPath: m_LocalRotation.w
@@ -370,7 +385,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7923167837261455783, guid: f8e079afd996b964a9b43022d004ee91, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<< HEAD:Assets/Scenes/UIscenes/GameOver_Test.unity
       value: -5.0084996
+=======
+      value: -4.970388
+>>>>>>> UI_Functionalities_floors:Assets/Scenes/GameOver_Test.unity
       objectReference: {fileID: 0}
     - target: {fileID: 7923167837261455783, guid: f8e079afd996b964a9b43022d004ee91, type: 3}
       propertyPath: m_LocalPosition.y
@@ -378,7 +397,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7923167837261455783, guid: f8e079afd996b964a9b43022d004ee91, type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD:Assets/Scenes/UIscenes/GameOver_Test.unity
       value: 1.4285002
+=======
+      value: 1.3903883
+>>>>>>> UI_Functionalities_floors:Assets/Scenes/GameOver_Test.unity
       objectReference: {fileID: 0}
     - target: {fileID: 7923167837261455783, guid: f8e079afd996b964a9b43022d004ee91, type: 3}
       propertyPath: m_LocalRotation.w
@@ -702,6 +725,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5406449694615273254, guid: c39121395aa917e4cbc9fdf6693d2e41, type: 3}
       propertyPath: m_LocalScale.x
+<<<<<<< HEAD:Assets/Scenes/UIscenes/GameOver_Test.unity
       value: 0.50098956
       objectReference: {fileID: 0}
     - target: {fileID: 5406449694615273254, guid: c39121395aa917e4cbc9fdf6693d2e41, type: 3}
@@ -711,6 +735,17 @@ PrefabInstance:
     - target: {fileID: 5406449694615273254, guid: c39121395aa917e4cbc9fdf6693d2e41, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.53296196
+=======
+      value: 0.4390498
+      objectReference: {fileID: 0}
+    - target: {fileID: 5406449694615273254, guid: c39121395aa917e4cbc9fdf6693d2e41, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.4390498
+      objectReference: {fileID: 0}
+    - target: {fileID: 5406449694615273254, guid: c39121395aa917e4cbc9fdf6693d2e41, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.4390498
+>>>>>>> UI_Functionalities_floors:Assets/Scenes/GameOver_Test.unity
       objectReference: {fileID: 0}
     - target: {fileID: 5406449694615273254, guid: c39121395aa917e4cbc9fdf6693d2e41, type: 3}
       propertyPath: m_LocalPosition.x
@@ -742,11 +777,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5406449694615273254, guid: c39121395aa917e4cbc9fdf6693d2e41, type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD:Assets/Scenes/UIscenes/GameOver_Test.unity
       value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 5406449694615273254, guid: c39121395aa917e4cbc9fdf6693d2e41, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 6
+=======
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5406449694615273254, guid: c39121395aa917e4cbc9fdf6693d2e41, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 7
+>>>>>>> UI_Functionalities_floors:Assets/Scenes/GameOver_Test.unity
       objectReference: {fileID: 0}
     - target: {fileID: 5406449694615273254, guid: c39121395aa917e4cbc9fdf6693d2e41, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -844,6 +887,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5406449694615273254, guid: c39121395aa917e4cbc9fdf6693d2e41, type: 3}
       propertyPath: m_LocalScale.x
+<<<<<<< HEAD:Assets/Scenes/UIscenes/GameOver_Test.unity
       value: 0.20308958
       objectReference: {fileID: 0}
     - target: {fileID: 5406449694615273254, guid: c39121395aa917e4cbc9fdf6693d2e41, type: 3}
@@ -853,6 +897,17 @@ PrefabInstance:
     - target: {fileID: 5406449694615273254, guid: c39121395aa917e4cbc9fdf6693d2e41, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.42019
+=======
+      value: 0.2038655
+      objectReference: {fileID: 0}
+    - target: {fileID: 5406449694615273254, guid: c39121395aa917e4cbc9fdf6693d2e41, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.41606054
+      objectReference: {fileID: 0}
+    - target: {fileID: 5406449694615273254, guid: c39121395aa917e4cbc9fdf6693d2e41, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.41606054
+>>>>>>> UI_Functionalities_floors:Assets/Scenes/GameOver_Test.unity
       objectReference: {fileID: 0}
     - target: {fileID: 5406449694615273254, guid: c39121395aa917e4cbc9fdf6693d2e41, type: 3}
       propertyPath: m_LocalPosition.x
@@ -884,11 +939,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5406449694615273254, guid: c39121395aa917e4cbc9fdf6693d2e41, type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD:Assets/Scenes/UIscenes/GameOver_Test.unity
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5406449694615273254, guid: c39121395aa917e4cbc9fdf6693d2e41, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -214
+=======
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5406449694615273254, guid: c39121395aa917e4cbc9fdf6693d2e41, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -167
+>>>>>>> UI_Functionalities_floors:Assets/Scenes/GameOver_Test.unity
       objectReference: {fileID: 0}
     - target: {fileID: 5406449694615273254, guid: c39121395aa917e4cbc9fdf6693d2e41, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1139,6 +1202,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5406449694615273254, guid: c39121395aa917e4cbc9fdf6693d2e41, type: 3}
       propertyPath: m_LocalScale.x
+<<<<<<< HEAD:Assets/Scenes/UIscenes/GameOver_Test.unity
       value: 0.48238403
       objectReference: {fileID: 0}
     - target: {fileID: 5406449694615273254, guid: c39121395aa917e4cbc9fdf6693d2e41, type: 3}
@@ -1148,6 +1212,17 @@ PrefabInstance:
     - target: {fileID: 5406449694615273254, guid: c39121395aa917e4cbc9fdf6693d2e41, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5300865
+=======
+      value: 0.388432
+      objectReference: {fileID: 0}
+    - target: {fileID: 5406449694615273254, guid: c39121395aa917e4cbc9fdf6693d2e41, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.4414
+      objectReference: {fileID: 0}
+    - target: {fileID: 5406449694615273254, guid: c39121395aa917e4cbc9fdf6693d2e41, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.4414
+>>>>>>> UI_Functionalities_floors:Assets/Scenes/GameOver_Test.unity
       objectReference: {fileID: 0}
     - target: {fileID: 5406449694615273254, guid: c39121395aa917e4cbc9fdf6693d2e41, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1179,11 +1254,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5406449694615273254, guid: c39121395aa917e4cbc9fdf6693d2e41, type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD:Assets/Scenes/UIscenes/GameOver_Test.unity
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5406449694615273254, guid: c39121395aa917e4cbc9fdf6693d2e41, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -103
+=======
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5406449694615273254, guid: c39121395aa917e4cbc9fdf6693d2e41, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -82
+>>>>>>> UI_Functionalities_floors:Assets/Scenes/GameOver_Test.unity
       objectReference: {fileID: 0}
     - target: {fileID: 5406449694615273254, guid: c39121395aa917e4cbc9fdf6693d2e41, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

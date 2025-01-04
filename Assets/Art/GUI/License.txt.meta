@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: b58fb7c3f077c5c4d9656e1e7c046b1d
+=======
+guid: 59a4fdbc0105927419331a63929718b2
+>>>>>>> UI_Functionalities_floors
 TextScriptImporter:
   externalObjects: {}
   userData: 

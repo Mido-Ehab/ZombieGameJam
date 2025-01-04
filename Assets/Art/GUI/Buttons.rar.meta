@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Art/GUI/Buttons.rar.meta
 guid: bfafaf0ba2106af40a60b5f7da20047b
+========
+guid: 59e48abe0cd97404687beed610a6ad89
+>>>>>>>> UI_Functionalities_floors:Assets/Art/internet assets/All.rar.meta
+=======
+guid: 57295745c5fd9d74a9d4a0fd8a1154e3
+>>>>>>> UI_Functionalities_floors
 DefaultImporter:
   externalObjects: {}
   userData: 

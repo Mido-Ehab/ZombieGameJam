@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 38826bc087c5a3f4098cd779a64f8032
+=======
+guid: 5122686d59a95e24689d9e206e1ca433
+>>>>>>> UI_Functionalities_floors
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
