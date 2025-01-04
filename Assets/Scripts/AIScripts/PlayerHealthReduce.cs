@@ -32,7 +32,7 @@ public class PlayerHealthReducer : MonoBehaviour
             {
                 Debug.Log("Player has died!");
                 Destroy(gameObject);
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene("GameOver_Test");
         }
        
     }
