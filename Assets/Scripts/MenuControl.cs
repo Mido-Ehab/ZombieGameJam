@@ -26,7 +26,7 @@ public class MenuControl : MonoBehaviour
     IEnumerator WaitingPlayGame()
     {
         yield return new WaitForSeconds(1);
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(2);
     }
 
     public void QuitGame()
