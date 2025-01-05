@@ -5,25 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class toCreditsVideo : MonoBehaviour
 {
-    [SerializeField] List<GameObject> panelList = new List<GameObject>();
-
-    public void OnButtonClick(GameObject on)
+    private void Update()
     {
-        foreach (GameObject panelOff in panelList)
-        {
-            panelOff.SetActive(false);
-        }
-        on.SetActive(true);
+        
     }
 
-    public void PlayGame()
+    public void PlayCredits()
     {
-        StartCoroutine(WaitingPlayGame());
+        StartCoroutine(WaitingPlayCredits());
     }
 
-    IEnumerator WaitingPlayGame()
+    IEnumerator WaitingPlayCredits()
     {
         yield return new WaitForSeconds(1);
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(3);
     }
 }

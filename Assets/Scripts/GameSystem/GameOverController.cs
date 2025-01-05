@@ -7,7 +7,7 @@ public class GameOverController : MonoBehaviour
     //Play Again
     public void ResetScene()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(1);
     }
 
     //Go back to menu

@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerDamage : MonoBehaviour
 {
-    private int Health = 3;
+    private int Health = 5;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -11,7 +11,14 @@ public class PlayerDamage : MonoBehaviour
         {
             InvokeRepeating(nameof(DecreaseHealth),0,2.5f);
         }
+
+        if (other.transform.tag == "Falling")
+        {
+            SceneManager.LoadScene(2);
+
+        }
     }
+
     private void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("PlayerKillerZone"))
@@ -32,7 +39,7 @@ public class PlayerDamage : MonoBehaviour
             {
                 Debug.Log("Player has died!");
                 Destroy(gameObject);
-            SceneManager.LoadScene(1);
+                SceneManager.LoadScene(2);
         }
        
     }

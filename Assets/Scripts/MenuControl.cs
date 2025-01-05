@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class MenuControl : MonoBehaviour
 {
-    [SerializeField] List<GameObject> panelList = new List<GameObject>();
+    [SerializeField] List<GameObject> panelList = new List<GameObject>();  
 
     public void OnButtonClick(GameObject on)
     {
@@ -26,12 +26,14 @@ public class MenuControl : MonoBehaviour
     IEnumerator WaitingPlayGame()
     {
         yield return new WaitForSeconds(1);
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
 
     public void QuitGame()
     {
         Application.Quit();
     }
+
+
 
 }

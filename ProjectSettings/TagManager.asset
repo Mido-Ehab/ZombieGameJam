@@ -8,6 +8,8 @@ TagManager:
   - Enemy
   - Pullable
   - Button
+  - PlayerKillerZone
+  - Falling
   layers:
   - Default
   - TransparentFX
