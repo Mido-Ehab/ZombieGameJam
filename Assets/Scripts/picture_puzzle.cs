@@ -8,6 +8,7 @@ public class picture_puzzle : MonoBehaviour
     box1 b1;
     box4 b4;
     public bool iswin = false;
+    [SerializeField] private GameObject syringe;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -21,6 +22,7 @@ public class picture_puzzle : MonoBehaviour
         if (b1.right && b1.down && b4.left && b4.up)
         {
             iswin = true;
+            syringe.SetActive(true);
         }
     }
 }

@@ -9,7 +9,6 @@ public class onDoorTrigger : MonoBehaviour
     private bool isPlayerInTrigger = false;  // Tracks if the player is in the trigger zone
     private bool isOpen = false;            // Tracks the door's state
     private Quaternion targetRotation;     // The target rotation of the door
-
     private void Start()
     {
         // Initialize the target rotation to the current rotation of the door
@@ -19,11 +18,9 @@ public class onDoorTrigger : MonoBehaviour
     private void Update()
     {
         // Check if the player is in the trigger zone and presses the F key
-       
-        if (isPlayerInTrigger && Input.GetKeyDown(KeyCode.F))
-        {
 
-            Debug.Log("F key pressed");
+        if (isPlayerInTrigger && Input.GetKeyDown(KeyCode.F) )
+        {
             // Toggle the door state
             isOpen = !isOpen;
 
@@ -47,7 +44,7 @@ public class onDoorTrigger : MonoBehaviour
         // Check if the object entering the trigger zone is the player
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Player entered trigger zone");
+            Debug.Log("Find the first key to open");
             isPlayerInTrigger = true;
         }
     }

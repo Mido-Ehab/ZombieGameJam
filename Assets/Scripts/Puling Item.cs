@@ -12,38 +12,38 @@ public class PullingItem : MonoBehaviour
     // Ray Casting
     private RaycastHit hitInfo;
 
-    private void Update() 
+    private void Update()
     {
-        if (Physics.Raycast(new Vector3(transform.position.x, transform.position.y + 1, transform.position.z), transform.TransformDirection(Vector3.forward), out hitInfo, 1000f)) 
+        if (Physics.Raycast(new Vector3(transform.position.x, transform.position.y + 1, transform.position.z), transform.TransformDirection(Vector3.forward), out hitInfo, 1000f))
         {
             float distance = Vector3.Distance(new Vector3(transform.position.x, transform.position.y + 1, transform.position.z), hitInfo.point);
-            
+
 
             if (hitInfo.collider.CompareTag("Pullable") && Input.GetKey(KeyCode.M) && distance < range)
             {
                 isDragging = true;
             }
-            else 
+            else
             {
                 isDragging = false;
             }
 
-            
-        }   
-        
+
+        }
+
         Rigidbody rigidbody = hitInfo.collider.GetComponent<Rigidbody>();
 
         if (isDragging)
-            {
-                Vector3 boxDirection = hitInfo.transform.position;
-                boxDirection.y = hitInfo.transform.position.y;
-                
-                Vector3 forceDirection = this.transform.position - hitInfo.transform.position;
+        {
+            Vector3 boxDirection = hitInfo.transform.position;
+            boxDirection.y = hitInfo.transform.position.y;
 
-                forceDirection.y = 0;
-                forceDirection.Normalize();
+            Vector3 forceDirection = this.transform.position - hitInfo.transform.position;
 
-                rigidbody.AddForce(forceDirection * ForceMagnitude, ForceMode.Impulse);
-            }
+            forceDirection.y = 0;
+            forceDirection.Normalize();
+
+            rigidbody.AddForce(forceDirection * ForceMagnitude, ForceMode.Impulse);
+        }
     }
 }
