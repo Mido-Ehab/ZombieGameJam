@@ -110,6 +110,9 @@ namespace StarterAssets
         private const float _threshold = 0.01f;
 
         private bool _hasAnimator;
+        private bool isIntaracting = false;
+        private float clock = 0;
+
 
         private bool IsCurrentDeviceMouse
         {
@@ -161,7 +164,11 @@ namespace StarterAssets
             GroundedCheck();
             PushButton();
             Move();
-
+            clock += Time.deltaTime;
+            if (clock > 28/60.0f)
+            {
+                isIntaracting = false;
+            }
         }
         private void OnCollisionEnter(Collision collision)
         {
@@ -281,8 +288,8 @@ namespace StarterAssets
             Vector3 targetDirection = Quaternion.Euler(0.0f, _targetRotation, 0.0f) * Vector3.forward;
 
             // move the player
-            _controller.Move(targetDirection.normalized * (_speed * Time.deltaTime) +
-                             new Vector3(0.0f, _verticalVelocity, 0.0f) * Time.deltaTime);
+            _controller.Move(!isIntaracting ? targetDirection.normalized * (_speed * Time.deltaTime) +
+                             new Vector3(0.0f, _verticalVelocity, 0.0f) * Time.deltaTime : Vector3.zero);
 
             // update animator if using character
             if (_hasAnimator)
@@ -366,6 +373,8 @@ namespace StarterAssets
             if (Input.GetKeyDown("f"))
             {
                 _animator.SetBool(_animIDPushButton,true);
+                isIntaracting = true;
+                clock = 0;
             }
             if (Input.GetKeyUp("f"))
             {

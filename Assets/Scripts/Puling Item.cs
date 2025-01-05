@@ -31,7 +31,8 @@ public class PullingItem : MonoBehaviour
 
         }
 
-        Rigidbody rigidbody = hitInfo.collider.GetComponent<Rigidbody>();
+        Rigidbody rigidbody;
+        hitInfo.collider.TryGetComponent<Rigidbody>(out rigidbody);
 
         if (isDragging)
         {
