@@ -1,3 +1,4 @@
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class End_Level : MonoBehaviour
@@ -18,7 +19,7 @@ public class End_Level : MonoBehaviour
     {
         if(other.tag == "Player")
         {
-            Debug.Log("WINNER");
+            //SceneManager.LoadScene();
         }
     }
 }
