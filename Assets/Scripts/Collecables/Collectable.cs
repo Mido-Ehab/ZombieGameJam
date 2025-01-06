@@ -1,4 +1,4 @@
-using UnityEditor.Compilation;
+//using UnityEditor.Compilation;
 using UnityEngine;
 
 public class Collectable : MonoBehaviour
