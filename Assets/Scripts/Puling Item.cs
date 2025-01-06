@@ -32,9 +32,8 @@ public class PullingItem : MonoBehaviour
         }
 
         Rigidbody rigidbody;
-        hitInfo.collider.TryGetComponent<Rigidbody>(out rigidbody);
 
-        if (isDragging)
+        if (isDragging && hitInfo.collider.TryGetComponent<Rigidbody>(out rigidbody))
         {
             Vector3 boxDirection = hitInfo.transform.position;
             boxDirection.y = hitInfo.transform.position.y;

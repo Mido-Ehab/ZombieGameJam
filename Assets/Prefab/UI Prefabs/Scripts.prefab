@@ -42,11 +42,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 4068129374923042236}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92ab86cffeaf5fc4099bc8ceed5b06fb, type: 3}
+  m_Script: {fileID: 11500000, guid: 097c390894d678a4abdb0425abc6f3b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioMixer: {fileID: 24100000, guid: f0c8359fb770bae419dc0a263b2bada5, type: 2}
-  musicSlider: {fileID: 0}
+  panelList: []
 --- !u!114 &6768926216931223302
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56,10 +55,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 4068129374923042236}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9323deb0a6998c45b0645cd28debbde, type: 3}
+  m_Script: {fileID: 11500000, guid: fb440bdc020edfd4ab0d55f7ff91f28f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panelList:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}

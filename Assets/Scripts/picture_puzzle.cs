@@ -22,7 +22,10 @@ public class picture_puzzle : MonoBehaviour
         if (b1.right && b1.down && b4.left && b4.up)
         {
             iswin = true;
-            syringe.SetActive(true);
+            if (syringe != null)
+            {
+                syringe.SetActive(true);
+            }
         }
     }
 }

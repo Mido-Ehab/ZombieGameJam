@@ -612,6 +612,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Working-Door (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2049643118531909919, guid: e2debd1a8d79b0145b599f6dce6ea1a0, type: 3}
+      propertyPath: inv
+      value: 
+      objectReference: {fileID: 689459429}
     - target: {fileID: 2788603091548924884, guid: e2debd1a8d79b0145b599f6dce6ea1a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.18
