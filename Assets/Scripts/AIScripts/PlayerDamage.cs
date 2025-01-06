@@ -38,8 +38,8 @@ public class PlayerDamage : MonoBehaviour
             if (Health <= 0)
             {
                 Debug.Log("Player has died!");
-                Destroy(gameObject);
                 SceneManager.LoadScene(2);
+                Destroy(gameObject);
         }
        
     }
