@@ -5,8 +5,11 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class MenuControl : MonoBehaviour
 {
-    [SerializeField] List<GameObject> panelList = new List<GameObject>();  
+    [SerializeField] List<GameObject> panelList = new List<GameObject>();
+    [SerializeField] GameObject MainMenu;
+    [SerializeField] GameObject HowToPlay;
 
+    private float delayToReadGuide = 4f;
     public void OnButtonClick(GameObject on)
     {
 
@@ -25,9 +28,15 @@ public class MenuControl : MonoBehaviour
 
     IEnumerator WaitingPlayGame()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.5f);
+        MainMenu.SetActive(false);
+        HowToPlay.SetActive(true);
+
+        yield return new WaitForSeconds(delayToReadGuide);
         SceneManager.LoadScene(1);
     }
+
+
 
     public void QuitGame()
     {

@@ -3,13 +3,13 @@ using UnityEngine.SceneManagement;
 
 public class PlayerDamage : MonoBehaviour
 {
-    private int Health = 5;
+    private int Health = 3;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("PlayerKillerZone"))
         {
-            InvokeRepeating(nameof(DecreaseHealth),0,2.5f);
+            InvokeRepeating(nameof(DecreaseHealth),0,3f);
         }
 
         if (other.transform.tag == "Falling")
